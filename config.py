@@ -4,12 +4,12 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Bot Settings
-BOT_TOKEN = os.getenv('BOT_TOKEN')
-ADMIN_ID = int(os.getenv('ADMIN_ID', '0'))
-OWNER_ID = int(os.getenv('OWNER_ID', '0'))
+BOT_TOKEN = os.getenv('8681119799:AAEpyFcI8tigZJQVG8VcW9aaqSJ7NydeC60')
+ADMIN_ID = int(os.getenv('ADMIN_ID', '8926978756'))
+OWNER_ID = int(os.getenv('OWNER_ID', '8926978756'))
 
 # Database
-DATABASE_URL = os.getenv('DATABASE_URL')
+DATABASE_URL = os.getenv('postgresql://neondb_owner:npg_8mtaPf6uoRZT@ep-icy-pond-b2x3o6l5-pooler.c-6.eu-central-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require')
 
 # Channels
 MANDATORY_CHANNELS = os.getenv('MANDATORY_CHANNELS', '').split(',')

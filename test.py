@@ -15,8 +15,8 @@ from telethon.tl.functions.channels import EditPhotoRequest, EditTitleRequest, U
 from telethon.tl.functions.messages import EditChatAboutRequest
 
 # ==================== SOZLAMALAR ====================
-API_ID = 26440858           # o'zingizning api_id
-API_HASH = "95ce18a4bef887bd954afa18a73850fe" # o'zingizning api_hash
+API_ID = 34769620           # o'zingizning api_id
+API_HASH = "c3bd2ea68b24f1f8010360e2200678fb" # o'zingizning api_hash
 SESSION_DIR = "./sessions"
 COUNTER_FILE = "counter.txt"
 CHANNEL_FILE = "channel.txt"
